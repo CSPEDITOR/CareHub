@@ -7,3 +7,15 @@
 .active hr{
     @apply block
 }
+
+::-webkit-scrollbar{
+    @apply hidden;
+}
+/* index.css */
+.grid-cols-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+html{
+    scroll-behavior: smooth;
+}
