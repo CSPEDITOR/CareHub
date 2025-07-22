@@ -6,6 +6,12 @@
 .bg-primary{
     background-color: #5f6fff;
 }
+.hover-bg-primary:hover {
+  background-color: #5f6fff;
+}
+.text-primary{
+    color: #5f6fff;
+}
 .active hr{
     @apply block
 }
