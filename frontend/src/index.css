@@ -27,3 +27,9 @@
 html{
     scroll-behavior: smooth;
 }
+
+@media (max-width:740px){
+    .active p {
+        @apply text-white; background-color: #5f6fff;
+    }
+}
